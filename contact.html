@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head lang="fr">
+      <meta charset="utf-8">
+      <title> Soham </title>
+      <link rel="icon" type="image/png" href="img/logo.png" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="css/main.css" rel="stylesheet" type="text/css">
+                    <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+                    <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous">
+      </script>  
+      <script type="text/javascript" src="js/main.js"></script>
+    </head>
+
+    <body>
+      
+        <div class="main">
+          <header class="header">
+            <img class="logo" src="img/logo.png" />
+              <article class="nav">
+                <ul>
+                  <li> Livre d'or </li>
+                  <li> Galerie </li>
+                  <li> Intervenants </li>
+                  <li> Rita Leaombruni </li>
+                  <li> Beatriz Navarro </li>
+                  <li> Contact &amp Reservation </li>
+                </ul>
+              </article>
+          </header>
+
+          <div class="row">
+            <div class="col-md-8">
+              <img class="maps" src="img/maps.png" alt="Plans adresse Soham">
+            </div>
+          </div>
+
+          <div class="background_formulaire">
+            <div class="formulaire">
+                <div class="col-md-12">
+                  <h2> Formulaire de contact </h2>
+                  <br>
+
+                  <form name="formulaire" action="index.html" method="POST">
+                    <label> Nom : </label><br>
+                      <input type="text" placeholder="Votre nom" name="name" required>
+                     <br><br>
+
+                    <label> Telephone : </label><br>
+                      <input type="tel" placeholder="Telephone" name="phone" required>
+                     <br><br>
+                    
+                    <label> Email : </label><br>
+                      <input type="email" placeholder="Votre adresse mail" name="email" required>
+                     <br><br>
+                    
+                    <label> Message : </label><br>
+                      <textarea placeholder="Message :" name="message" rows="10" cols="50"></textarea>
+                      <br>
+
+                      <input type="submit" name="submit" value="Envoyer">
+                    </form>
+                </div>
+              </div>
+
+          <footer class="footer col-md-12 text-center">
+            <p> Copyright &copy; 2016 &#150; SOHAM 19, Rue Saint-Bazile (Ligne 1 &#150; Station Réformés-Canebière) </p>
+          </footer>
+        </body>
+</html>
