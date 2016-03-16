@@ -43,6 +43,10 @@ header
 	padding-bottom: 25px;
 }
 
+.nav li a
+{
+	color: black;
+}
 
 /* Index */
 span
