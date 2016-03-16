@@ -35,6 +35,13 @@ header
 	color:black;
 }
 
+.nav li a:hover
+{
+	border-bottom: 5px #BF3B58 solid;
+	color: #E54C82;
+	text-decoration: none;
+	padding-bottom: 30px;
+}
 
 
 /* Index */
@@ -99,7 +106,6 @@ cite
 	margin-top: -10px;
 	text-shadow: 1px 1px black;
 }
-
 
 /*  Contact */
 

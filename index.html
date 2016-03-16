@@ -11,6 +11,7 @@
                     <!-- Latest compiled and minified JavaScript -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous">
       </script>  
+      <link type="text/javascript" rel="stylesheet" src="js/main.js"/>
     </head>
 
     <body>
@@ -126,5 +127,16 @@
         <footer class="footer col-md-12 text-center">
           <p> Copyright &copy; 2016 Soham &#150; LES ONDINES 19, Rue Saint-Bazile (Ligne 1 &#150; Station Réformés-Canebière) </p>
         </footer>
+        
+        <script>
+        $("button").click(function(){
+    $("div").animate({
+        left: '250px',
+        opacity: '0.5',
+        height: '150px',
+        width: '150px'
+    });
+});  
+        </script>
     </body>
 </html>
