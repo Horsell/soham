@@ -11,6 +11,18 @@ body
 	padding-top: 70px;
 }
 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px){
+	
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
+
 /* Header */
 
 header
@@ -21,7 +33,7 @@ header
 	width: 100%;
 }
 
-.logo
+header img
 {
 	margin-left: 200px;
 	margin-top: 25px;
@@ -36,18 +48,14 @@ header
 
 .nav li
 {
-	display: inline;
 	font-size: 1.2em;
 	margin-left: 20px;
-	color:black;
 }
 
 .nav li a:hover
 {
-	border-top: 4px #BF3B58 solid;
 	color: #E54C82;
 	text-decoration: none;
-	padding-bottom: 25px;
 }
 
 .nav li a
