@@ -44,7 +44,7 @@ header
 
 .nav li a:hover
 {
-	border-bottom: 4px #BF3B58 solid;
+	border-top: 4px #BF3B58 solid;
 	color: #E54C82;
 	text-decoration: none;
 	padding-bottom: 25px;
