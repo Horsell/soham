@@ -6,6 +6,10 @@ html,body
 	margin: 0;
 	overflow-x: hidden;
 }
+body
+{
+	padding-top: 70px;
+}
 
 /* Header */
 
@@ -69,7 +73,7 @@ cite
 
 .citation
 {
-	background-color: #A34F2B ; /* Marron du logo */
+	background-color: #733A2D; /* Marron legerement foncé*/
 	height: 250px;
 	width: 100%;
 	padding-top: 70px;
@@ -157,3 +161,78 @@ cite
  	margin-top: 35px;
  	color: black;
  }
+
+/* Espace personnel Beatriz */
+
+.photo_beatriz
+{
+	background-image: url('img/navarro.png');
+	background-repeat: no-repeat;
+	z-index: 5;
+}
+
+.container_beatriz
+{
+	background-color: #733A2D;
+	height: 500px;
+	width: 100%;
+	color: white;
+	font-size: 1.3em;
+	margin-top: 85px;
+}
+
+.container_beatriz .thumbnail
+{
+	padding: 0;
+	height: 60%;
+	width: 60%;
+	margin-top: 100px;
+}
+
+.description_beatriz
+{
+	margin-top:50px;
+}
+
+.description_beatriz p
+{
+	width: 80%;
+	margin-left: -100px;
+}	
+
+.titre_atelier
+{
+	font-size: 1.3em;
+	margin-left: -5px;
+}
+
+/* Espace personnel Rita */
+
+.container_rita
+{
+	background-color: #733A2D;
+	min-height: 100%;
+	width: 100%;
+	color: white;
+	font-size: 1.3em;
+}
+
+.container_rita .thumbnail
+{
+	padding: 0;
+	height: 60%;
+	width: 60%;
+	margin-top: 100px;
+}
+
+.description_rita
+{
+	margin-top: 50px;
+	width: 70%;
+	min-height: 100%;
+}
+
+.description_rita p
+{
+	margin-left: -100px;
+}	
