@@ -8,7 +8,7 @@ html,body
 }
 body
 {
-	padding-top: 70px;
+	padding-top: 170px;
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -32,6 +32,12 @@ header
 	background-color: white;
 	width: 100%;
 	box-shadow: 1px 1px 5px grey;
+	height: 170px;
+}
+
+.img-responsive
+{
+	margin-left: 50px;
 }
 
 .logo
