@@ -40,25 +40,15 @@ header
 	margin-left: 50px;
 }
 
-.logo
-{
-	/*
-	margin-left: 200px;
-	margin-top: 25px;
-	margin-bottom: -35px;
-	*/
-}
-
 .nav
 {
-	margin-left: 410px;
+	margin-left: 200px;
 	margin-top: -80px;
 }
 
 .nav li
 {
 	font-size: 1.2em;
-	margin-left: 20px;
 }
 
 .nav li a:hover
@@ -76,8 +66,9 @@ header
 /* Index */
 span
 {
-	margin-left: 15px;
+	margin-top: 15px;
 }
+
 .main
 {
 	background-color: white;
@@ -119,7 +110,7 @@ cite
 }
 
 
-.intervenants
+#intervenants
 {
 	background-color: #3F1F1C;
 	padding: 50px;
@@ -127,7 +118,7 @@ cite
 	border-top: 1px solid black;
 }
 
-.intervenants h2
+#intervenants h2
 {
 	color: #65BCBC;
 	font-size: 1.9em;
@@ -167,17 +158,36 @@ cite
 
 .footer
 {
-	min-height: 50%;
+	min-height: 80%;
 	width: 100%;
-	background-color: #097068; /* #A2D5C5;  Vert turquoise du logo */
+	background-color: #097069; /* #A2D5C5;  Vert turquoise du logo */
 	bottom: 0;
 	font-size: 1.3em;
+	padding-top: 80px;
 }
- .footer p
+
+.footer p
  {
- 	margin-top: 35px;
+ 	border-bottom: 1px black solid;
  	color: black;
  }
+
+.footer span
+{
+	font-size: 0.9em;
+	color: black;
+}
+
+/* Deuxieme footer */
+
+.footer2
+{
+	width: 100%;
+	bottom: 0;
+	font-size: 1em;
+	color: black;
+	background-color: #097068;
+}
 
 /* Espace personnel Beatriz */
 
