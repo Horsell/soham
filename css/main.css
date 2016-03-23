@@ -265,12 +265,17 @@ cite
 	background-color: #097068;
 }
 
-.footer
-{
-	text-decoration: none;
-}
-
 .glyphicon
 {
 	margin-right: 20px;
+}
+.glyphicon a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.glyphicon a:hover
+{
+	color: #E54C82;
 }
