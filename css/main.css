@@ -127,6 +127,7 @@ cite
 	text-shadow: 1px 1px black;
 }
 
+
 /*  Contact */
 
 .formulaire
@@ -152,41 +153,6 @@ cite
 {
 	min-width: 100%;
 	border-top: 1px solid black;
-}
-
-/* Footer */
-
-.footer
-{
-	min-height: 65%;
-	width: 100%;
-	background-color: #097069; /* #A2D5C5;  Vert turquoise du logo */
-	bottom: 0;
-	font-size: 1.3em;
-	padding-top: 80px;
-}
-
-.footer p
- {
- 	border-bottom: 1px black solid;
- 	color: black;
- }
-
-.footer span
-{
-	font-size: 0.9em;
-	color: black;
-}
-
-/* Deuxieme footer */
-
-.footer2
-{
-	width: 100%;
-	bottom: 0;
-	font-size: 1.1em;
-	color: black;
-	background-color: #097068;
 }
 
 /* Espace personnel Beatriz */
@@ -263,3 +229,38 @@ cite
 {
 	margin-left: -100px;
 }	
+
+/* Footer */
+
+.footer
+{
+	min-height: 65%;
+	width: 100%;
+	background-color: #097069; /* #A2D5C5;  Vert turquoise du logo */
+	bottom: 0;
+	font-size: 1.3em;
+	padding-top: 80px;
+}
+
+.footer p
+ {
+ 	border-bottom: 1px black solid;
+ 	color: black;
+ }
+
+.footer span
+{
+	font-size: 0.9em;
+	color: black;
+}
+
+/* Deuxieme footer */
+
+.footer2
+{
+	width: 100%;
+	bottom: 0;
+	font-size: 1.1em;
+	color: black;
+	background-color: #097068;
+}
