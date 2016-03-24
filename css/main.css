@@ -32,12 +32,17 @@ header
 	background-color: white;
 	width: 100%;
 	box-shadow: 1px 1px 5px grey;
-	height: 170px;
+	height: 220px;
+}
+.nom_association
+{
+	position: absolute;
 }
 
-.img-responsive
+
+.img-responsive, .nom_association
 {
-	margin-left: 50px;
+	margin-left: 150px;
 }
 
 .nav
