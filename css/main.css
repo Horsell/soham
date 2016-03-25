@@ -48,7 +48,7 @@ header
 	margin-left: 40px;
 }
 
-.img-responsive
+.img-responsiveLogo
 {
 	margin-top: 15px;
 	margin-left: 68px;
@@ -222,9 +222,9 @@ cite
 {
 	background-color: #733A2D;
 	min-height: 100%;
-	width: 100%;
 	color: white;
-	font-size: 1.3em;
+	font-size: 1.1em;
+	margin-top: 10px;
 }
 
 .container_rita .thumbnail
@@ -245,7 +245,7 @@ cite
 .description_rita p
 {
 	margin-left: -100px;
-}	
+}
 
 /* Footer */
 
