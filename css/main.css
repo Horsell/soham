@@ -141,6 +141,10 @@ cite
 	text-shadow: 1px 1px black;
 }
 
+.thumbnail_JeanLledo, .thumbnail_gabrielaAcosta
+{
+	min-height: 530px;
+}
 
 /*  Contact */
 
