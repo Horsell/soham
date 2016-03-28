@@ -215,13 +215,13 @@ cite
 
 .formulaire
 {
-	height: 100vh;
+	height: 100%;
 }
 
 .background_formulaire
 {
 	width: 100%;
-	min-height: 110%;
+	min-height: 100%;
 	background-color: #301712;
 }
 
