@@ -19,7 +19,7 @@ body
 }
 
 /* Small devices (tablets, 768px and up) */
-@media all and (max-width: 860px){
+@media all and (max-width: 768px){
 	.nom_association
 	{
 		display: none;
