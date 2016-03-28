@@ -52,7 +52,9 @@ body
 	.footer
 	{
 		display: none;
-	} 	
+	}
+
+	
 }
 
 /* Medium devices (desktops, 992px and up) 
@@ -215,7 +217,7 @@ cite
 
 .formulaire
 {
-	height: 100%;
+	min-height: 100vh;
 }
 
 .background_formulaire
@@ -232,7 +234,7 @@ cite
 
 .maps
 {
-	min-width: 100%;
+	min-width: 60%;
 	border-top: 1px solid black;
 }
 
