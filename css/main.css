@@ -38,7 +38,8 @@ body
 	}
 	.list ul li
 	{
-		margin-right: -22px;	
+		margin-right: -22px;
+		padding-right: 15px;
 	}
 	.navbar-fixed-top
 	{
