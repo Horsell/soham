@@ -318,12 +318,12 @@ cite
 
 .footer
 {
-	min-height: 70%;
+	min-height: 20%;
 	width: 100%;
 	background-color: #097069; /* #A2D5C5;  Vert turquoise du logo */
 	bottom: 0;
 	font-size: 1em;
-	padding-top: 80px;
+	padding-top: 10px;
 }
 
 .footer p
