@@ -234,7 +234,7 @@ cite
 
 .maps
 {
-	min-width: 60%;
+	min-width: 100%;
 	border-top: 1px solid black;
 }
 
@@ -334,6 +334,12 @@ cite
 .footer span
 {
 	font-size: 0.9em;
+	color: black;
+}
+
+.footer_span
+{
+		font-size: 0.9em;
 	color: black;
 }
 
