@@ -54,7 +54,6 @@ body
 		display: none;
 	}
 
-	
 }
 
 /* Medium devices (desktops, 992px and up) 
@@ -112,24 +111,24 @@ header
 {
 	margin-top: 33px;
 	letter-spacing: 2px;
-	margin-left: 40px;
+	margin-left: 20px;
 }
 
 .img-responsiveLogo
 {
-	margin-top: 15px;
-	margin-left: 68px;
+	margin-top: 15px;	
+	margin-left: 48px;
 }
 
 .nav
 {
-	margin-left: 200px;
+	margin-left: 470px;
 	margin-top: -80px;
 }
 
 .nav li
 {
-	font-size: 1.1em;
+	font-size: 1em;
 }
 
 .nav li a:hover
@@ -141,10 +140,23 @@ header
 .nav li a
 {
 	color: #097068;
-
 }
 
-/* Index */
+.btn-default
+{
+	margin-left: -20px;
+	border: transparent;
+	margin-top: 5px;
+}
+
+.test
+{
+	margin-top: -35px;
+	margin-left: 70px;
+}
+
+	/* Index */
+
 span
 {
 	margin-top: 15px;
@@ -208,9 +220,21 @@ cite
 	text-shadow: 1px 1px black;
 }
 
-.thumbnail_JeanLledo, .thumbnail_gabrielaAcosta
+.calendrier h3
 {
-	min-height: 530px;
+	color: #65BCBC;
+	font-size: 1.9em;
+}
+
+.calendrier
+{
+	color: white;
+}
+
+.titre_calendrier
+{
+	text-decoration: underline;
+	fotn
 }
 
 /*  Contact */
@@ -312,6 +336,12 @@ cite
 .description_rita p
 {
 	margin-left: -100px;
+
+}
+
+.para p
+{
+	font-size: 1.2em
 }
 
 /* Footer */
@@ -340,7 +370,7 @@ cite
 
 .footer_span
 {
-		font-size: 0.9em;
+	font-size: 0.9em;
 	color: black;
 }
 
